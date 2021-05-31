@@ -1,0 +1,289 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*end of the reset*/
+
+body {
+    line-height: 1;
+    font-size: 20px;
+}
+
+/*Manilla de oro fonts*/
+@font-face {
+    font-family: 'finland_roundedthin';
+    src: url(../fonts/finland_rounded/finland_rounded_thin-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans_condensed_lightRg';
+    src: url(../fonts/open_sans_condensed/opensanscondensed-light-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Manilla de oro fonts*/
+
+/*La Rambleta fonts*/
+@font-face {
+    font-family: 'documenta';
+    src: url(../fonts/documenta/documenta-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuralight';
+    src: url(../fonts/futura/futura_book_font-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuramd';
+    src: url(../fonts/futura/futura_medium_condensed_bt-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*La Rambleta fonts*/
+
+/*Corebit fonts*/
+@font-face {
+    font-family: 'nfl_san_diego_chargersregular';
+    src: url(../fonts/nfl_san_diego_chargers/nfl_san_diego_chargers-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bignoodletitlingregular';
+    src: url(../fonts/big_noodle/big_noodle_titling_0-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_kairegular';
+    src: url(../fonts/bebas_kai/bebaskai-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Corebit fonts*/
+
+
+#container{
+    margin: 0 auto;
+    width: 160vh;
+    margin-top: 40px;
+}
+
+h1{
+    float: left;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+.navigation{
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: 50px;
+    text-align: right;
+    padding-top: 33px;
+}
+
+.navigation li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.navigation a{
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+}
+
+span{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#manilla-box, #rambleta-box, #corebit-box{
+    box-sizing: border-box;
+}
+
+#rambleta-box, #corebit-box{
+    margin-top: 20px;
+}
+
+/*manilla de oro Propposal css*/
+#manilla-box{
+    background:#F5F3EB;
+    color: #5b5c5b;
+}
+
+#manilla-box h1{
+    font-family: 'finland_roundedthin', Arial, sans-serif;
+    font-size: 60px;
+    text-transform: uppercase ;
+}
+
+#manilla-box .navigation{
+    font-family: 'open_sans_condensed_lightRg', Arial, sans-serif;
+    font-size: 25px;
+}
+
+#manilla-box a{
+    color: #eeb91e;
+}
+
+#manilla-box h1>a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#manilla-box .columnas{
+    font-family: 'open_sans_condensed_lightRg', Arial, sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+    line-height: 35px;
+}
+
+.columnas{
+    padding: 30px;
+}
+/*manilla de oro Propposal css*/
+
+/*Rambleta Propposal css*/
+#rambleta-box{
+    width: 100%;
+    height: 100%;
+    background: #E89E01;
+}
+
+#rambleta-box h1{
+    font-family: 'documenta', sans-serif;
+    font-size: 60px;
+    color: #a50044;
+    margin-top: 20px;
+}
+
+#rambleta-box .navigation{
+    font-family: 'futuramd',sans-serif;
+    color: black;
+}
+
+#rambleta-box a{
+
+    font-size: 30px
+}
+
+/*hover*/
+.hvr{
+    color: #063A85;
+    position: relative;
+}
+
+.hvr::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: currentColor;
+
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 250ms ease-in-out;
+    transition-timing-function: ease-out;
+    transition-timing-function: cubic-bezier(0, 0, 0.58, 1);
+}
+
+.hvr:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/*over*/
+
+#rambleta-box .columnas{
+    font-family: 'futuralight', sans-serif;
+    line-height: 40px;
+    text-align: justify;
+}
+/*Rambleta Propposal css*/
+
+/*corebit Propposal css*/
+#corebit-box{
+    width: 100%;
+    height: 100%;
+    background: #152A5C ;
+}
+
+#corebit-box h1{
+    font-family: 'nfl_san_diego_chargersregular', sans-serif;
+    font-size: 60px;
+    color: #F6F5F5;
+    margin-top: 20px;
+    letter-spacing: 30px;
+}
+
+#corebit-box .navigation{
+    font-family: 'bignoodletitlingregular', sans-serif;
+}
+
+#corebit-box a{
+    color: #6294AD;
+    font-size: 30px
+}
+
+#corebit-box .columnas{
+    font-family: 'bebas_kairegular', sans-serif;
+    line-height: 40px;
+    text-align: justify;
+    color: #F6F5F5;
+}
+/*corebit Propposal css*/
